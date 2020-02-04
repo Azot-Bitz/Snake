@@ -1,0 +1,11 @@
+C:\Users\admin\www\geekbrains\OOP\Snake123\Snake123\bin\Debug\netcoreapp3.1\Snake123.exe
+C:\Users\admin\www\geekbrains\OOP\Snake123\Snake123\bin\Debug\netcoreapp3.1\Snake123.deps.json
+C:\Users\admin\www\geekbrains\OOP\Snake123\Snake123\bin\Debug\netcoreapp3.1\Snake123.runtimeconfig.json
+C:\Users\admin\www\geekbrains\OOP\Snake123\Snake123\bin\Debug\netcoreapp3.1\Snake123.runtimeconfig.dev.json
+C:\Users\admin\www\geekbrains\OOP\Snake123\Snake123\bin\Debug\netcoreapp3.1\Snake123.dll
+C:\Users\admin\www\geekbrains\OOP\Snake123\Snake123\bin\Debug\netcoreapp3.1\Snake123.pdb
+C:\Users\admin\www\geekbrains\OOP\Snake123\Snake123\obj\Debug\netcoreapp3.1\Snake123.csprojAssemblyReference.cache
+C:\Users\admin\www\geekbrains\OOP\Snake123\Snake123\obj\Debug\netcoreapp3.1\Snake123.AssemblyInfoInputs.cache
+C:\Users\admin\www\geekbrains\OOP\Snake123\Snake123\obj\Debug\netcoreapp3.1\Snake123.AssemblyInfo.cs
+C:\Users\admin\www\geekbrains\OOP\Snake123\Snake123\obj\Debug\netcoreapp3.1\Snake123.dll
+C:\Users\admin\www\geekbrains\OOP\Snake123\Snake123\obj\Debug\netcoreapp3.1\Snake123.pdb
