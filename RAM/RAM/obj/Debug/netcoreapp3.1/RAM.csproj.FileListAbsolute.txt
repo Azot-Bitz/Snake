@@ -1,0 +1,10 @@
+C:\Users\admin\www\geekbrains\OOP\RAM\RAM\obj\Debug\netcoreapp3.1\RAM.AssemblyInfoInputs.cache
+C:\Users\admin\www\geekbrains\OOP\RAM\RAM\obj\Debug\netcoreapp3.1\RAM.AssemblyInfo.cs
+C:\Users\admin\www\geekbrains\OOP\RAM\RAM\bin\Debug\netcoreapp3.1\RAM.exe
+C:\Users\admin\www\geekbrains\OOP\RAM\RAM\bin\Debug\netcoreapp3.1\RAM.deps.json
+C:\Users\admin\www\geekbrains\OOP\RAM\RAM\bin\Debug\netcoreapp3.1\RAM.runtimeconfig.json
+C:\Users\admin\www\geekbrains\OOP\RAM\RAM\bin\Debug\netcoreapp3.1\RAM.runtimeconfig.dev.json
+C:\Users\admin\www\geekbrains\OOP\RAM\RAM\bin\Debug\netcoreapp3.1\RAM.dll
+C:\Users\admin\www\geekbrains\OOP\RAM\RAM\bin\Debug\netcoreapp3.1\RAM.pdb
+C:\Users\admin\www\geekbrains\OOP\RAM\RAM\obj\Debug\netcoreapp3.1\RAM.dll
+C:\Users\admin\www\geekbrains\OOP\RAM\RAM\obj\Debug\netcoreapp3.1\RAM.pdb
