@@ -1,0 +1,11 @@
+C:\Users\admin\www\geekbrains\OOP\List_2(Список)\List_2(Список)\obj\Debug\netcoreapp3.1\List_2(Список).csprojAssemblyReference.cache
+C:\Users\admin\www\geekbrains\OOP\List_2(Список)\List_2(Список)\obj\Debug\netcoreapp3.1\List_2(Список).AssemblyInfoInputs.cache
+C:\Users\admin\www\geekbrains\OOP\List_2(Список)\List_2(Список)\obj\Debug\netcoreapp3.1\List_2(Список).AssemblyInfo.cs
+C:\Users\admin\www\geekbrains\OOP\List_2(Список)\List_2(Список)\bin\Debug\netcoreapp3.1\List_2(Список).exe
+C:\Users\admin\www\geekbrains\OOP\List_2(Список)\List_2(Список)\bin\Debug\netcoreapp3.1\List_2(Список).deps.json
+C:\Users\admin\www\geekbrains\OOP\List_2(Список)\List_2(Список)\bin\Debug\netcoreapp3.1\List_2(Список).runtimeconfig.json
+C:\Users\admin\www\geekbrains\OOP\List_2(Список)\List_2(Список)\bin\Debug\netcoreapp3.1\List_2(Список).runtimeconfig.dev.json
+C:\Users\admin\www\geekbrains\OOP\List_2(Список)\List_2(Список)\bin\Debug\netcoreapp3.1\List_2(Список).dll
+C:\Users\admin\www\geekbrains\OOP\List_2(Список)\List_2(Список)\bin\Debug\netcoreapp3.1\List_2(Список).pdb
+C:\Users\admin\www\geekbrains\OOP\List_2(Список)\List_2(Список)\obj\Debug\netcoreapp3.1\List_2(Список).dll
+C:\Users\admin\www\geekbrains\OOP\List_2(Список)\List_2(Список)\obj\Debug\netcoreapp3.1\List_2(Список).pdb
