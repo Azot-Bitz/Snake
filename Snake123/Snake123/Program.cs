@@ -10,17 +10,24 @@ namespace Snake123
 	{
 		static void Main(string[] args)
 		{
-			Point p1 = new Point(1, 3, '*');
-			p1.Draw();
+			Console.SetWindowSize(1, 1);
+			Console.SetBufferSize(80, 25);
+			Console.SetWindowSize(80, 25); // Эта функция устанавливает размер окна и убирает возможность перемотки.
 
-			Point p2 = new Point(4, 5, '#');
-			p2.Draw();
+			//Отрисовка рамки
+			HorizontalLine upLine = new HorizontalLine(0,78,0,'+');
+			HorizontalLine downLine = new HorizontalLine(0, 78, 24, '+');
+			VerticalLine leftLine = new VerticalLine(0, 24, 0, '+');
+			VerticalLine rightLine = new VerticalLine(0, 24, 78, '+');
+			upLine.Drow();
+			downLine.Drow();
+			leftLine.Drow();
+			rightLine.Drow();
 
-			/*HorizontalLine line = new HorizontalLine(5,10,8,'+');
-			line.Drow();*/
+			//Отрисовка точек
+			Point p = new Point(4, 5, '*');
+			p.Draw();
 
-			VerticalLine lin = new VerticalLine(5, 8, 15, '*');
-			lin.Drow();
 			Console.ReadLine();
 		}
 	}
