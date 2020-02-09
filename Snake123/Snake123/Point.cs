@@ -29,6 +29,12 @@ namespace Snake123
             sym = p.sym;
         }// конструктор с помощью которого можно задавать точки с помощью другой точки.
 
+        public void Clear()
+        {
+            sym = ' ';
+            Draw();
+        }
+
         public void Move(int offset, Direction direction)
         {
             if(direction == Direction.RIGHT)

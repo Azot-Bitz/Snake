@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Snake123
@@ -28,6 +29,25 @@ namespace Snake123
 			Point p = new Point(4, 5, '*');
 			Snake snake = new Snake(p, 4, Direction.RIGHT); //(хвост, длина, направление змейки)
 			snake.Drow();
+			snake.Move();
+			Thread.Sleep(300);
+			snake.Move();
+			Thread.Sleep(300);
+			snake.Move();
+			Thread.Sleep(300);
+			snake.Move();
+			Thread.Sleep(300);
+			snake.Move();
+			Thread.Sleep(300);
+			snake.Move();
+			Thread.Sleep(300);
+			snake.Move();
+			Thread.Sleep(300);
+			snake.Move();
+			Thread.Sleep(300);
+			snake.Move();
+			Thread.Sleep(300);
+			snake.Move();
 
 			Console.ReadLine();
 		}
