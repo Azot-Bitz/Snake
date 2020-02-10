@@ -51,5 +51,18 @@ namespace Snake123
             else if (key == ConsoleKey.UpArrow)
                 direction = Direction.UP;
         }
+        internal bool Eat(Point food)
+        {
+            Point head = GetNextPoint();// Функция GetNextPoint() вычисляет в какой точке оказывается змейка в следующий момент.
+            if (head.IsHit(food))// Если эта точка, на которой окажется змейка на следующем ходу, совпадает с координатами еды, то в этом случае будет акт питания.
+                                 // Координаты head и координаты food совпадают, поэтому переходим в тело цикла.
+            {
+                food.sym = head.sym;// Змейка удлиняется.
+                pList.Add(food);
+                return true;
+            }
+            else
+                return false;
+        }
     }
 }

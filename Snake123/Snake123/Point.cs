@@ -54,6 +54,10 @@ namespace Snake123
                 y = y + offset;
             }// метод Move, который будет сдвигать данную точку на расстояние offset, по направлению Direction.
         }
+        public bool IsHit(Point p)
+        {
+            return p.x == this.x && p.y == this.y;// Проверка на равенство координат точки IsHit с точкой, которую мы передали в качестве аргумента (Point p).
+        }
         public override string ToString()
         {
             return x + "," + y + "," + sym;
