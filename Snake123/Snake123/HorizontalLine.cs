@@ -18,5 +18,11 @@ namespace Snake123
             }
             
         }
+        public override void Draw()
+        {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+
+            base.Draw();
+        }
     }
 }
