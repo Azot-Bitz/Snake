@@ -15,34 +15,15 @@ namespace Snake123
 			Console.SetBufferSize(80, 25);
 			Console.SetWindowSize(80, 25); // Эта функция устанавливает размер окна и убирает возможность перемотки.
 
-			//Отрисовка рамки
-			/*HorizontalLine upLine = new HorizontalLine(0,78,0,'+');
-			HorizontalLine downLine = new HorizontalLine(0, 78, 24, '+');
-			VerticalLine leftLine = new VerticalLine(0, 24, 0, '+');
-			VerticalLine rightLine = new VerticalLine(0, 24, 78, '+');
-			upLine.Drow();
-			downLine.Drow();
-			leftLine.Drow();
-			rightLine.Drow();*/
-			VerticalLine v1 = new VerticalLine(0, 10, 5, '&');
-			Draw(v1);
+			Walls walls = new Walls(80, 25);
+			walls.Draw();
+			
 
 			//Отрисовка точек
 			Point p = new Point(4, 5, '*');
 			Figure fSnake = new Snake(p, 4, Direction.RIGHT); //(хвост, длина, направление змейки)
 			Draw(fSnake);
 			Snake snake = (Snake)fSnake;// Это явное приведение типов.
-			HorizontalLine h1 = new HorizontalLine(0, 5, 6, '&');
-
-			List<Figure> figures = new List<Figure>();
-			figures.Add(fSnake);
-			figures.Add(v1);
-			figures.Add(h1);
-
-			foreach(var f in figures)
-			{
-				f.Draw();
-			}
 
 			static void Draw(Figure figure)
 			{
@@ -56,6 +37,10 @@ namespace Snake123
 
 				while (true)// Бесконечный цикл.
 				{
+				if(walls.IsHit(snake) || snake.IsHitTail())
+				{
+					break;
+				}
 					if (snake.Eat(food))// Метод snake.Eat возвращает бинарное значение (true, false).
 					{
 						food = foodCreator.CreateFood();// Создаем новую точку еды.

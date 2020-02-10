@@ -51,6 +51,18 @@ namespace Snake123
             else if (key == ConsoleKey.UpArrow)
                 direction = Direction.UP;
         }
+
+        internal bool IsHitTail()
+        {
+            var head = pList.Last();
+            for(int i = 0; i < pList.Count - 2; i++)
+            {
+                if (head.IsHit(pList[i]))// Делаем проверку есть ли совпадение между координатами головной точки и точками всего оставшегося хвоста.
+                    return true;
+            }
+            return false;
+        }
+
         internal bool Eat(Point food)
         {
             Point head = GetNextPoint();// Функция GetNextPoint() вычисляет в какой точке оказывается змейка в следующий момент.
