@@ -40,5 +40,16 @@ namespace Snake123
             nextPoint.Move(1, direction);// Эту созданную точку сдвигаем по направлению direction.
             return nextPoint;// Мы получили точку, которая является новым положением головы змейки.
         }
+        public void HandleKey(ConsoleKey key)
+        {
+            if (key == ConsoleKey.LeftArrow)
+                direction = Direction.LEFT;
+            else if (key == ConsoleKey.RightArrow)
+                direction = Direction.RIGHT;
+            else if (key == ConsoleKey.DownArrow)
+                direction = Direction.DOWN;
+            else if (key == ConsoleKey.UpArrow)
+                direction = Direction.UP;
+        }
     }
 }

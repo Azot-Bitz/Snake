@@ -29,27 +29,17 @@ namespace Snake123
 			Point p = new Point(4, 5, '*');
 			Snake snake = new Snake(p, 4, Direction.RIGHT); //(хвост, длина, направление змейки)
 			snake.Drow();
-			snake.Move();
-			Thread.Sleep(300);
-			snake.Move();
-			Thread.Sleep(300);
-			snake.Move();
-			Thread.Sleep(300);
-			snake.Move();
-			Thread.Sleep(300);
-			snake.Move();
-			Thread.Sleep(300);
-			snake.Move();
-			Thread.Sleep(300);
-			snake.Move();
-			Thread.Sleep(300);
-			snake.Move();
-			Thread.Sleep(300);
-			snake.Move();
-			Thread.Sleep(300);
-			snake.Move();
 
-			Console.ReadLine();
+			while (true)// Бесконечный цикл.
+			{
+				if (Console.KeyAvailable)// Проверяет была ли нажата какая-либо кнопка.
+				{
+					ConsoleKeyInfo key = Console.ReadKey();//Получает значение этой клавиши.
+					snake.HandleKey(key.Key);
+				}
+				Thread.Sleep(100);
+				snake.Move();
+			}
 		}
 	}
 }
